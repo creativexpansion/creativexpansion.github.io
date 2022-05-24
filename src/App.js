@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
+import PageContainer from "./components/PageContainer";
 
 function App() {
   return (
     <div className="App">
-      <strong>
-        <small>creativexpansion</small>
-      </strong>
+      <PageContainer />
     </div>
   );
 }
