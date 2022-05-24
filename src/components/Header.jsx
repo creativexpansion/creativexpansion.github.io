@@ -31,6 +31,9 @@ const Header = () => {
             <p className="subtitle"><span className="main">idee innovative</span>, alta capacità creativa e progettuale</p>
         </div>
         <Separator />
+        <p>
+            <small>WIP</small>
+        </p>
     </StyledHeader>
 }
 
