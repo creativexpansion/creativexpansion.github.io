@@ -34,11 +34,12 @@ const StyledHeader = styled.div`
 
     .links a {
       margin-right: 20px;
+      margin-left: 0;
       font-size: 18px;
     }
 
     .clocks {
-        display: flex;
+      display: flex;
     }
   }
 
@@ -58,17 +59,15 @@ const StyledHeader = styled.div`
       flex-direction: column-reverse;
       justify-content: space-between;
       align-items: center;
-      min-height: 64px;
-      margin-bottom: 5px;
-
       .links a {
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         font-size: 18px;
       }
-    .clocks {
+      .clocks {
         display: flex;
         margin-bottom: 15px;
-    }
+      }
     }
   }
 `;

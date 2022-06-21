@@ -17,6 +17,11 @@ const StyledContacts = styled.div`
       color: #009ee1;
     }
   }
+  @media (max-width: 880px) {
+    .email {
+      text-align: center;
+    }
+  }
 `;
 
 const Contacts = () => {

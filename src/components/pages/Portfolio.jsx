@@ -21,7 +21,7 @@ const StyledPortfolio = styled.div`
       width: 100%;
     }
   }
-  .menu {
+  .submenu {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -30,7 +30,19 @@ const StyledPortfolio = styled.div`
 
     .links a {
       margin-right: 20px;
+      margin-left: 0;
       font-size: 18px;
+    }
+  }
+  @media (max-width: 880px) {
+    .submenu {
+      text-align: center;
+
+      .links a {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 18px;
+      }
     }
   }
 `;
@@ -53,7 +65,7 @@ const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
   return (
     <PageContainer>
       <StyledPortfolio>
-        <div className="menu">
+        <div className="submenu">
           <div className="links">
             <a className={activeLink.logoDesign} href="/portfolio/logo-design">
               logo design
