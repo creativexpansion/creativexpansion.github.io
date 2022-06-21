@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17f05e61.css",
-    "main.js": "/static/js/main.afa4755b.js",
+    "main.js": "/static/js/main.9d0294a5.js",
     "static/media/contact001.jpg": "/static/media/contact001.176f3b02c4896597fb9e.jpg",
     "static/media/graphicS001.jpg": "/static/media/graphicS001.8bf0541b7f3d365a46f6.jpg",
     "static/media/graphic001.jpg": "/static/media/graphic001.92fe6d0861ab6d64ca5b.jpg",
@@ -10,10 +10,10 @@
     "static/media/poltrona005.png": "/static/media/poltrona005.627d2f7df0386e8eea7c.png",
     "index.html": "/index.html",
     "main.17f05e61.css.map": "/static/css/main.17f05e61.css.map",
-    "main.afa4755b.js.map": "/static/js/main.afa4755b.js.map"
+    "main.9d0294a5.js.map": "/static/js/main.9d0294a5.js.map"
   },
   "entrypoints": [
     "static/css/main.17f05e61.css",
-    "static/js/main.afa4755b.js"
+    "static/js/main.9d0294a5.js"
   ]
 }
