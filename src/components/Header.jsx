@@ -289,7 +289,7 @@ const Header = () => {
           </a>
         </div>
         <div className="clocks">
-          <canvas ref={canvasRef} width={282} height={63} />
+          <canvas ref={canvasRef} width={282} height={74} />
         </div>
       </div>
       <Separator margin="0 0 43px" />
