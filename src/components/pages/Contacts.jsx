@@ -30,8 +30,8 @@ const Contacts = () => {
       <StyledContacts>
         <p className="email">
           <span>marco ciacco - </span>
-          <a href="mailto:creativexpansion@gmail.com">
-            creativexpansion@gmail.com
+          <a href="mailto:creativexpansionart@gmail.com">
+            creativexpansionart@gmail.com
           </a>
         </p>
         <Separator margin="5px 0 30px" />
