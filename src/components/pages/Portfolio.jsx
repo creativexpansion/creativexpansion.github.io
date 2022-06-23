@@ -55,8 +55,9 @@ const Portfolios = {
 };
 
 const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
-  let activeLink = {
-    logoDesign: useActivePath("/portfolio/logo-design"),
+  const isMainPortfolio = useActivePath("/portfolio");
+  const activeLink = {
+    logoDesign: useActivePath("/portfolio/logo-design") || isMainPortfolio,
     interiorDesign: useActivePath("/portfolio/interior-design"),
     manoLibera: useActivePath("/portfolio/mano-libera"),
     fotoImmagine: useActivePath("/portfolio/foto-immagine"),

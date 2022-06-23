@@ -20,7 +20,7 @@ const StyledLogoDesign = styled.div`
   }
 `;
 
-const logos = [aer002, can004, chi005, eli001, inn003, pne006];
+const logos = [eli001, aer002, inn003, can004, chi005, pne006];
 
 const LogoDesign = () => {
   return (

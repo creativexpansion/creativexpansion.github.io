@@ -21,10 +21,10 @@ const StyledManoLibera = styled.div`
 `;
 
 const logos = [
-  borsa003,
-  borsa004,
   oreficeria001,
   oreficeria002,
+  borsa003,
+  borsa004,
   poltrona005,
   poltrona006,
 ];
