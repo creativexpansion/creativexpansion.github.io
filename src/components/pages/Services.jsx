@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import graphicS001 from "../../assets/images/services/graphicS001.jpg";
+import graphicS002 from "../../assets/images/services/graphicS002.jpg";
 import PageContainer from "../PageContainer";
 
 const StyledServices = styled.div`
@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <PageContainer>
       <StyledServices>
-        <img src={graphicS001} alt="welcome" />
+        <img src={graphicS002} alt="welcome" />
       </StyledServices>
     </PageContainer>
   );
