@@ -1,21 +1,82 @@
-import Flickity from "react-flickity-component";
+import { useState } from "react";
+import styled from "styled-components";
+
+const StyledCarousel = styled.div`
+  width: calc(100%);
+  margin: 0;
+
+  .thumbnails {
+    width: calc(100% - 12px);
+    display: flex;
+    margin: 24px 6px 0;
+    flex-wrap: wrap;
+    img {
+      pointer-events: all;
+      max-width: 142px;
+      border: 1px solid #333333;
+      margin: 10px;
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .preview {
+    display: block;
+    position: relative;
+    margin: 11px 17px 24px;
+    width: calc(100% - 34px);
+    img {
+      margin: 0;
+      min-width: 100%;
+      border: 1px solid #333333;
+    }
+  }
+
+  @media (max-width: 556px) {
+    .thumbnails {
+    margin: 0 6px;
+    img {
+      pointer-events: none;
+      max-width: 100%;
+      margin: 10px;
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+    }
+    .preview {
+      display: none;
+    }
+  }
+`;
+
 const Carousel = ({ images }) => {
-  const flickityOptions = {
-    initialIndex: 0,
+  const [selectedImage, setSelectedImage] = useState(0);
+  const selectImage = (imageIndex) => () => {
+    setSelectedImage(imageIndex);
   };
   return (
-    <Flickity
-      className={"carousel"}
-      elementType={"div"}
-      options={flickityOptions}
-      disableImagesLoaded={false}
-      reloadOnUpdate={false}
-      static={false}
-    >
-      {images.map((image, key) => (
-        <img key={key} src={image} alt={"carousel slide " + (key + 1)} />
-      ))}
-    </Flickity>
+    <StyledCarousel>
+      <div className="thumbnails">
+        {images.map((image, key) => (
+          <img
+            key={key}
+            src={image}
+            alt={"carousel slide " + (key + 1)}
+            onClick={selectImage(key)}
+          />
+        ))}
+      </div>
+      <div className="preview">
+        <img
+          src={images[selectedImage]}
+          alt={"carousel image #" + selectedImage}
+        />
+      </div>
+    </StyledCarousel>
   );
 };
 

@@ -2,9 +2,10 @@ import styled from "styled-components";
 import PageContainer from "../PageContainer";
 import Separator from "../Separator";
 import { useActivePath } from "../utils";
+import InteriorDesign from "./InteriorDesign";
 import LogoDesign from "./LogoDesign";
 import ManoLibera from "./ManoLibera";
-import WIP from "./WIP";
+import Photos from "./Photos";
 
 export const PORTFOLIO = {
   LOGO_DESIGN: "LOGO_DESIGN",
@@ -49,9 +50,9 @@ const StyledPortfolio = styled.div`
 
 const Portfolios = {
   LOGO_DESIGN: LogoDesign,
-  INTERIOR_DESIGN: WIP,
+  INTERIOR_DESIGN: InteriorDesign,
   MANO_LIBERA: ManoLibera,
-  FOTO_IMMAGINE: WIP,
+  FOTO_IMMAGINE: Photos,
 };
 
 const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
