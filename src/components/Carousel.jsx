@@ -15,9 +15,17 @@ const StyledCarousel = styled.div`
       max-width: 142px;
       border: 1px solid #333333;
       margin: 10px;
+      opacity: 0.6;
+      filter: saturate(0);
+      transition: all ease 0.4s;
+      &.active {
+        opacity: 1;
+        filter: saturate(1);
+      }
       &:hover {
-        opacity: 0.8;
+        opacity: 1;
         cursor: pointer;
+        filter: saturate(1);
       }
     }
   }
@@ -42,10 +50,8 @@ const StyledCarousel = styled.div`
         pointer-events: none;
         max-width: 100%;
         margin: 10px;
-        &:hover {
-          opacity: 0.8;
-          cursor: pointer;
-        }
+        opacity: 1;
+        filter: saturate(1);
       }
     }
     .preview {
@@ -74,6 +80,7 @@ const Carousel = ({ images }) => {
       <div className="thumbnails">
         {images.map((image, key) => (
           <img
+            className={key === selectedImage ? "active" : ""}
             key={key}
             src={image}
             alt={"carousel slide " + (key + 1)}
