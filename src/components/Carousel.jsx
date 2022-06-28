@@ -2,8 +2,8 @@ import { useState } from "react";
 import styled from "styled-components";
 
 const StyledCarousel = styled.div`
-  width: calc(100%);
-  margin: 0;
+  width: calc(100% + 34px);
+  margin: -17px;
 
   .thumbnails {
     width: calc(100% - 12px);
@@ -29,26 +29,37 @@ const StyledCarousel = styled.div`
     width: calc(100% - 34px);
     img {
       margin: 0;
-      min-width: 100%;
+      width: 100%;
       border: 1px solid #333333;
     }
   }
 
   @media (max-width: 556px) {
     .thumbnails {
-    margin: 0 6px;
-    img {
-      pointer-events: none;
-      max-width: 100%;
-      margin: 10px;
-      &:hover {
-        opacity: 0.8;
-        cursor: pointer;
+      margin: 0 6px;
+      width: calc(100% - 34px);
+      img {
+        pointer-events: none;
+        max-width: 100%;
+        margin: 10px;
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+        }
       }
-    }
     }
     .preview {
       display: none;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .thumbnails {
+      margin: 0 17px;
+      width: calc(100% - 34px);
+      img {
+        margin: 17px 0;
+      }
     }
   }
 `;

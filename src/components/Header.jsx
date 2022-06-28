@@ -18,6 +18,8 @@ const StyledHeader = styled.div`
     }
 
     .subtitle {
+      margin-top: -7px;
+      line-height: 1;
       color: #707070;
       .main {
         color: #ffffff;

@@ -10,20 +10,7 @@ import tunisi008 from "../../assets/images/portfolio/photos/tunisi008.jpg";
 import alberi009 from "../../assets/images/portfolio/photos/alberi009.jpg";
 import cielo010 from "../../assets/images/portfolio/photos/cielo010.jpg";
 import Carousel from "../Carousel";
-const StyledPhotos = styled.div`
-  width: calc(100% + 34px);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: -17px;
-
-  img {
-    width: 100%;
-    max-width: 340px;
-    border: 1px solid #333333;
-    margin: 17px;
-  }
-`;
+const StyledPhotos = styled.div``;
 
 const images = [
   matite001,

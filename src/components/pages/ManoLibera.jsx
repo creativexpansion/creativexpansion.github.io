@@ -18,6 +18,14 @@ const StyledManoLibera = styled.div`
     border: 1px solid #333333;
     margin: 17px;
   }
+
+  @media (max-width: 370px) {
+    margin: 0;
+    width: 100%;
+    img {
+      margin: 17px 0;
+    }
+  }
 `;
 
 const logos = [
