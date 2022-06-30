@@ -43,7 +43,7 @@ const logos = [
 
 const ManoLibera = () => {
   useEffect(() => {
-    document.title = titlePrefix + '| Portfolio | Mano Libera';
+    document.title = titlePrefix + 'Portfolio | Mano Libera';
   }, []);
   return (
     <StyledManoLibera>

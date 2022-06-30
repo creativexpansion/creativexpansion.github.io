@@ -36,7 +36,7 @@ const logos = [eli001, aer002, inn003, can004, chi005, pne006];
 
 const LogoDesign = () => {
   useEffect(() => {
-    document.title = titlePrefix + '| Portfolio | Logo Design';
+    document.title = titlePrefix + 'Portfolio | Logo Design';
   }, []);
   return (
     <StyledLogoDesign>

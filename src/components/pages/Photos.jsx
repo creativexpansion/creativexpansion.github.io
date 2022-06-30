@@ -29,7 +29,7 @@ const images = [
 
 const Photos = () => {
   useEffect(() => {
-    document.title = titlePrefix + '| Portfolio | Foto Immagine';
+    document.title = titlePrefix + 'Portfolio | Foto Immagine';
   }, []);
   return (
     <StyledPhotos>

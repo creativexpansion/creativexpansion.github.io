@@ -10,7 +10,7 @@ const images = [interior001, interior002];
 
 const InteriorDesign = () => {
   useEffect(() => {
-    document.title = titlePrefix + '| Portfolio | Interior Design';
+    document.title = titlePrefix + 'Portfolio | Interior Design';
   }, []);
   return (
     <StyledInteriorDesign>
