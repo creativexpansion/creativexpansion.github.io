@@ -15,6 +15,7 @@ const StyledManoLibera = styled.div`
   img {
     width: 100%;
     max-width: 340px;
+    max-width: calc(50% - 36px);
     border: 1px solid #333333;
     margin: 17px;
   }
@@ -24,6 +25,7 @@ const StyledManoLibera = styled.div`
     width: 100%;
     img {
       margin: 17px 0;
+      max-width: 100%;
     }
   }
 `;
