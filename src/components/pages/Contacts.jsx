@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import contact001 from "../../assets/images/contacts/contact001.jpg";
+import contact003 from "../../assets/images/contacts/contact003.jpg";
 import PageContainer from "../PageContainer";
 import Separator from "../Separator";
 
@@ -36,7 +36,7 @@ const Contacts = () => {
         </p>
         <Separator margin="5px 0 30px" />
         <div className="contactsImage">
-          <img src={contact001} alt="contacts" />
+          <img src={contact003} alt="contacts" />
         </div>
       </StyledContacts>
     </PageContainer>
