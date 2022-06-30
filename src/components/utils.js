@@ -4,3 +4,5 @@ export const useActivePath = (path, end = true) =>
   useMatch({ path: useResolvedPath(path).pathname, end }) === null
     ? ""
     : "active";
+
+export const titlePrefix = "creativexpansion | ";

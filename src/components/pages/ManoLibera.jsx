@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 import borsa003 from "../../assets/images/portfolio/freehand/borsa003.png";
 import borsa004 from "../../assets/images/portfolio/freehand/borsa004.png";
@@ -5,6 +6,7 @@ import oreficeria001 from "../../assets/images/portfolio/freehand/oreficeria001.
 import oreficeria002 from "../../assets/images/portfolio/freehand/oreficeria002.png";
 import poltrona005 from "../../assets/images/portfolio/freehand/poltrona005.png";
 import poltrona006 from "../../assets/images/portfolio/freehand/poltrona006.png";
+import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
   display: flex;
@@ -40,6 +42,9 @@ const logos = [
 ];
 
 const ManoLibera = () => {
+  useEffect(() => {
+    document.title = titlePrefix + '| Portfolio | Mano Libera';
+  }, []);
   return (
     <StyledManoLibera>
       {logos.map((logo, key) => (

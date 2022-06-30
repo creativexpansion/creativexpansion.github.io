@@ -1,7 +1,9 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 import contact003 from "../../assets/images/contacts/contact003.jpg";
 import PageContainer from "../PageContainer";
 import Separator from "../Separator";
+import { titlePrefix } from "../utils";
 
 const StyledContacts = styled.div`
   .contactsImage {
@@ -25,6 +27,9 @@ const StyledContacts = styled.div`
 `;
 
 const Contacts = () => {
+  useEffect(() => {
+    document.title = titlePrefix + 'contatti';
+  }, []);
   return (
     <PageContainer>
       <StyledContacts>

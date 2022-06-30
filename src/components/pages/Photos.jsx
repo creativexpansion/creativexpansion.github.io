@@ -10,6 +10,8 @@ import tunisi008 from "../../assets/images/portfolio/photos/tunisi008.jpg";
 import alberi009 from "../../assets/images/portfolio/photos/alberi009.jpg";
 import cielo010 from "../../assets/images/portfolio/photos/cielo010.jpg";
 import Carousel from "../Carousel";
+import { useEffect } from "react";
+import { titlePrefix } from "../utils";
 const StyledPhotos = styled.div``;
 
 const images = [
@@ -26,6 +28,9 @@ const images = [
 ];
 
 const Photos = () => {
+  useEffect(() => {
+    document.title = titlePrefix + '| Portfolio | Foto Immagine';
+  }, []);
   return (
     <StyledPhotos>
       <Carousel images={images} />
