@@ -37,7 +37,7 @@ const StyledCarousel = styled.div`
     width: calc(100% - 34px);
     img {
       margin: 0;
-      width: 100%;
+      width: calc(100% - 3px);
       border: 1px solid #333333;
     }
   }
