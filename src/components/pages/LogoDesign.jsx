@@ -6,6 +6,7 @@ import chi005 from "../../assets/images/portfolio/logos/chi005.png";
 import eli001 from "../../assets/images/portfolio/logos/eli001.png";
 import inn003 from "../../assets/images/portfolio/logos/inn003.png";
 import pne006 from "../../assets/images/portfolio/logos/pne006.png";
+import gol008 from "../../assets/images/portfolio/logos/gol008.png";
 import mus007 from "../../assets/images/portfolio/logos/mus007.png";
 import { titlePrefix } from "../utils";
 const StyledLogoDesign = styled.div`
@@ -33,7 +34,7 @@ const StyledLogoDesign = styled.div`
   }
 `;
 
-const logos = [eli001, aer002, inn003, can004, chi005, pne006, mus007];
+const logos = [eli001, aer002, inn003, can004, chi005, pne006, gol008, mus007];
 
 const LogoDesign = () => {
   useEffect(() => {
