@@ -37,12 +37,12 @@ const StyledManoLibera = styled.div`
 const logos = [
   oreficeria001,
   oreficeria002,
+  gioiello3,
   borsa003,
   borsa004,
+  borsa3,
   poltrona005,
   poltrona006,
-  borsa3,
-  gioiello3,
 ];
 
 const ManoLibera = () => {
