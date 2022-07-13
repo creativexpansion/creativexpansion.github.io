@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.a1c567e9.js",
+    "main.js": "/static/js/main.217f6fe5.js",
+    "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
     "static/media/serviziS003.jpg": "/static/media/serviziS003.744d670143f32531067b.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
     "static/media/alberi009.jpg": "/static/media/alberi009.b3e68af0f5382615fd38.jpg",
-    "static/media/home002.jpg": "/static/media/home002.9eb3aca4231600f74f6c.jpg",
     "static/media/interior001.jpg": "/static/media/interior001.a768967fb55c8e783c33.jpg",
     "static/media/interior002.jpg": "/static/media/interior002.1cf7395da1290436e697.jpg",
     "static/media/tunisi008.jpg": "/static/media/tunisi008.8d416ce2412527e64e00.jpg",
@@ -15,6 +15,7 @@
     "static/media/mare003.jpg": "/static/media/mare003.c827667f184926afd479.jpg",
     "static/media/piatto007.jpg": "/static/media/piatto007.1922110b9a98250b086b.jpg",
     "static/media/mixer006.jpg": "/static/media/mixer006.680c8eaafce16800a390.jpg",
+    "static/media/interior003.jpg": "/static/media/interior003.d5fdedd6feb38c7b67c1.jpg",
     "static/media/matite001.jpg": "/static/media/matite001.86c28053b873b36b5419.jpg",
     "static/media/cielo010.jpg": "/static/media/cielo010.c59ed7b5198f56be74b0.jpg",
     "static/media/logo.png": "/static/media/logo.9b931652b1526f060fe5.png",
@@ -22,10 +23,10 @@
     "static/media/poltrona005.png": "/static/media/poltrona005.627d2f7df0386e8eea7c.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.a1c567e9.js.map": "/static/js/main.a1c567e9.js.map"
+    "main.217f6fe5.js.map": "/static/js/main.217f6fe5.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.a1c567e9.js"
+    "static/js/main.217f6fe5.js"
   ]
 }
