@@ -6,6 +6,8 @@ import oreficeria001 from "../../assets/images/portfolio/freehand/oreficeria001.
 import oreficeria002 from "../../assets/images/portfolio/freehand/oreficeria002.png";
 import poltrona005 from "../../assets/images/portfolio/freehand/poltrona005.png";
 import poltrona006 from "../../assets/images/portfolio/freehand/poltrona006.png";
+import borsa3 from "../../assets/images/portfolio/freehand/borsa3.png";
+import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
@@ -39,11 +41,13 @@ const logos = [
   borsa004,
   poltrona005,
   poltrona006,
+  borsa3,
+  gioiello3,
 ];
 
 const ManoLibera = () => {
   useEffect(() => {
-    document.title = titlePrefix + 'Portfolio | Mano Libera';
+    document.title = titlePrefix + "Portfolio | Mano Libera";
   }, []);
   return (
     <StyledManoLibera>
