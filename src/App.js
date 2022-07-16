@@ -16,6 +16,10 @@ function App() {
           <Route path="/servizi" element={<Services />} />
           <Route path="/portfolio/logo-design" element={<Portfolio />} />
           <Route
+            path="/portfolio/mockup"
+            element={<Portfolio selectedPortfolio={PORTFOLIO.MOCKUP} />}
+          />
+          <Route
             path="/portfolio/interior-design"
             element={
               <Portfolio selectedPortfolio={PORTFOLIO.INTERIOR_DESIGN} />

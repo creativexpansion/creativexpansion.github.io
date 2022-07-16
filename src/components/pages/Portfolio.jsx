@@ -5,10 +5,12 @@ import { useActivePath } from "../utils";
 import InteriorDesign from "./InteriorDesign";
 import LogoDesign from "./LogoDesign";
 import ManoLibera from "./ManoLibera";
+import Mockup from "./Mockup";
 import Photos from "./Photos";
 
 export const PORTFOLIO = {
   LOGO_DESIGN: "LOGO_DESIGN",
+  MOCKUP: "MOCKUP",
   INTERIOR_DESIGN: "INTERIOR_DESIGN",
   MANO_LIBERA: "MANO_LIBERA",
   FOTO_IMMAGINE: "FOTO_IMMAGINE",
@@ -50,6 +52,7 @@ const StyledPortfolio = styled.div`
 
 const Portfolios = {
   LOGO_DESIGN: LogoDesign,
+  MOCKUP: Mockup,
   INTERIOR_DESIGN: InteriorDesign,
   MANO_LIBERA: ManoLibera,
   FOTO_IMMAGINE: Photos,
@@ -59,6 +62,7 @@ const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
   const isMainPortfolio = useActivePath("/portfolio");
   const activeLink = {
     logoDesign: useActivePath("/portfolio/logo-design") || isMainPortfolio,
+    mockup: useActivePath("/portfolio/mockup"),
     interiorDesign: useActivePath("/portfolio/interior-design"),
     manoLibera: useActivePath("/portfolio/mano-libera"),
     fotoImmagine: useActivePath("/portfolio/foto-immagine"),
@@ -71,6 +75,9 @@ const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
           <div className="links">
             <a className={activeLink.logoDesign} href="/portfolio/logo-design">
               logo design
+            </a>
+            <a className={activeLink.mockup} href="/portfolio/mockup">
+              mockup
             </a>
             <a
               className={activeLink.interiorDesign}
