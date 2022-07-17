@@ -7,6 +7,7 @@ import mockup005 from "../../assets/images/portfolio/mockup/mockup005.jpg";
 import mockup006 from "../../assets/images/portfolio/mockup/mockup006.jpg";
 import mockup007 from "../../assets/images/portfolio/mockup/mockup007.jpg";
 import mockup008 from "../../assets/images/portfolio/mockup/mockup008.jpg";
+import mockup009 from "../../assets/images/portfolio/mockup/mockup009.jpg";
 import Carousel from "../Carousel";
 import { useEffect } from "react";
 import { titlePrefix } from "../utils";
@@ -21,6 +22,7 @@ const images = [
   mockup006,
   mockup007,
   mockup008,
+  mockup009,
 ];
 
 const Mockup = () => {
