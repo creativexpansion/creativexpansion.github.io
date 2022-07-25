@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.de49783f.js",
+    "main.js": "/static/js/main.3e68051e.js",
     "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
     "static/media/serviziS003.jpg": "/static/media/serviziS003.744d670143f32531067b.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
@@ -19,6 +19,7 @@
     "static/media/interior003.jpg": "/static/media/interior003.d5fdedd6feb38c7b67c1.jpg",
     "static/media/matite001.jpg": "/static/media/matite001.86c28053b873b36b5419.jpg",
     "static/media/cielo010.jpg": "/static/media/cielo010.c59ed7b5198f56be74b0.jpg",
+    "static/media/mockup010.jpg": "/static/media/mockup010.a810e5888fa3f43d50e9.jpg",
     "static/media/mockup007.jpg": "/static/media/mockup007.2b7b52ff7df59ad609e7.jpg",
     "static/media/mockup006.jpg": "/static/media/mockup006.d48e983b2dafa2e7d07d.jpg",
     "static/media/mockup004.jpg": "/static/media/mockup004.4d61733bc863e4e2c2c9.jpg",
@@ -32,10 +33,10 @@
     "static/media/poltrona005.png": "/static/media/poltrona005.627d2f7df0386e8eea7c.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.de49783f.js.map": "/static/js/main.de49783f.js.map"
+    "main.3e68051e.js.map": "/static/js/main.3e68051e.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.de49783f.js"
+    "static/js/main.3e68051e.js"
   ]
 }
