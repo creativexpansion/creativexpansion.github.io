@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.2e5f8f55.js",
+    "main.js": "/static/js/main.4d82436d.js",
     "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
     "static/media/serviziS003.jpg": "/static/media/serviziS003.744d670143f32531067b.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
@@ -33,10 +33,10 @@
     "static/media/poltrona005.png": "/static/media/poltrona005.627d2f7df0386e8eea7c.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.2e5f8f55.js.map": "/static/js/main.2e5f8f55.js.map"
+    "main.4d82436d.js.map": "/static/js/main.4d82436d.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.2e5f8f55.js"
+    "static/js/main.4d82436d.js"
   ]
 }
