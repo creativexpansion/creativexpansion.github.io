@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styled from "styled-components";
-import serviziS003 from "../../assets/images/services/serviziS003.jpg";
+import graphicS004 from "../../assets/images/services/graphicS004.jpg";
 import PageContainer from "../PageContainer";
 import { titlePrefix } from "../utils";
 
@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <PageContainer>
       <StyledServices>
-        <img src={serviziS003} alt="welcome" />
+        <img src={graphicS004} alt="welcome" />
       </StyledServices>
     </PageContainer>
   );
