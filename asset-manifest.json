@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.4d82436d.js",
+    "main.js": "/static/js/main.54aa8ab9.js",
     "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
-    "static/media/serviziS003.jpg": "/static/media/serviziS003.744d670143f32531067b.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
     "static/media/alberi009.jpg": "/static/media/alberi009.b3e68af0f5382615fd38.jpg",
+    "static/media/graphicS004.jpg": "/static/media/graphicS004.1bc22c4417d8adb116cb.jpg",
     "static/media/interior001.jpg": "/static/media/interior001.a768967fb55c8e783c33.jpg",
     "static/media/interior002.jpg": "/static/media/interior002.1cf7395da1290436e697.jpg",
     "static/media/mockup008.jpg": "/static/media/mockup008.7f0267e77f5c1abfd5d9.jpg",
@@ -33,10 +33,10 @@
     "static/media/poltrona005.png": "/static/media/poltrona005.627d2f7df0386e8eea7c.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.4d82436d.js.map": "/static/js/main.4d82436d.js.map"
+    "main.54aa8ab9.js.map": "/static/js/main.54aa8ab9.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.4d82436d.js"
+    "static/js/main.54aa8ab9.js"
   ]
 }
