@@ -87,7 +87,6 @@ const Header = () => {
     let jan = new Date(d.getFullYear(), 0, 1).getTimezoneOffset();
     let jul = new Date(d.getFullYear(), 6, 1).getTimezoneOffset();
     const IDST = Math.max(jan, jul) !== d.getTimezoneOffset();
-    console.log("isDST", d, IDST);
     return IDST;
   };
 
