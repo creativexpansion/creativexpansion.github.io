@@ -94,7 +94,7 @@ const Header = () => {
       if (canvasRef.current) {
         var ctx = canvasRef.current.getContext("2d");
         var d = new Date();
-        var h = d.getUTCHours() - (isDST(d) ? 1 : 0);
+        var h = d.getUTCHours() - (isDST(d) ? 0 : 1);
         var m = d.getUTCMinutes();
         var s = d.getUTCSeconds();
         function draw() {
