@@ -12,6 +12,8 @@ import sca009 from "../../assets/images/portfolio/logos/sca009.png";
 import fam010 from "../../assets/images/portfolio/logos/fam010.png";
 import mos011 from "../../assets/images/portfolio/logos/mos_011.png";
 import stu012 from "../../assets/images/portfolio/logos/stu_012.png";
+import cre013 from "../../assets/images/portfolio/logos/cre_013.png";
+import ugu014 from "../../assets/images/portfolio/logos/ugu_014.png";
 import { titlePrefix } from "../utils";
 const StyledLogoDesign = styled.div`
   width: calc(100% + 34px);
@@ -51,6 +53,8 @@ const logos = [
   fam010,
   mos011,
   stu012,
+  cre013,
+  ugu014,
 ];
 
 const LogoDesign = () => {
