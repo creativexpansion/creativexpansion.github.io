@@ -83,12 +83,19 @@ const Header = () => {
     contatti: useActivePath("/contatti"),
   };
 
+  const isDST = (d) => {
+    let jan = new Date(d.getFullYear(), 0, 1).getTimezoneOffset();
+    let jul = new Date(d.getFullYear(), 6, 1).getTimezoneOffset();
+    const IDST = Math.max(jan, jul) !== d.getTimezoneOffset();
+    return IDST;
+  };
+
   const animate = useCallback(
     (t) => {
       if (canvasRef.current) {
         var ctx = canvasRef.current.getContext("2d");
         var d = new Date();
-        var h = d.getUTCHours();
+        var h = d.getUTCHours() - (isDST(d) ? 0 : 1);
         var m = d.getUTCMinutes();
         var s = d.getUTCSeconds();
         function draw() {
