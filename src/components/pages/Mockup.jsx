@@ -9,6 +9,10 @@ import mockup007 from "../../assets/images/portfolio/mockup/mockup007.jpg";
 import mockup008 from "../../assets/images/portfolio/mockup/mockup008.jpg";
 import mockup009 from "../../assets/images/portfolio/mockup/mockup009.jpg";
 import mockup010 from "../../assets/images/portfolio/mockup/mockup010.jpg";
+import mockup011 from "../../assets/images/portfolio/mockup/mockup011.jpg";
+import mockup012 from "../../assets/images/portfolio/mockup/mockup012.jpg";
+import mockup013 from "../../assets/images/portfolio/mockup/mockup013.jpg";
+import mockup014 from "../../assets/images/portfolio/mockup/mockup014.jpg";
 import Carousel from "../Carousel";
 import { useEffect } from "react";
 import { titlePrefix } from "../utils";
@@ -25,6 +29,10 @@ const images = [
   mockup008,
   mockup009,
   mockup010,
+  mockup011,
+  mockup012,
+  mockup013,
+  mockup014,
 ];
 
 const Mockup = () => {
