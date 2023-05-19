@@ -24,10 +24,11 @@ const StyledLogoDesign = styled.div`
 
   img {
     width: 100%;
-    max-width: 340px;
+    max-width: 383px;
     /* max-width: calc(50% - 36px); */
-    border: 1px solid #333333;
+    /* border: 1px solid #333333; */
     margin: 17px;
+    box-shadow: inset 0 0 0 1px rgb(51,51,51);
   }
 
   @media (max-width: 370px) {
