@@ -7,6 +7,8 @@ import oreficeria002 from "../../assets/images/portfolio/freehand/oreficeria002.
 import poltrona005 from "../../assets/images/portfolio/freehand/poltrona005.png";
 import poltrona006 from "../../assets/images/portfolio/freehand/poltrona006.png";
 import borsa3 from "../../assets/images/portfolio/freehand/borsa3.png";
+import borsa4 from "../../assets/images/portfolio/freehand/borsa4.png";
+import borsa5 from "../../assets/images/portfolio/freehand/borsa5.png";
 import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
@@ -43,6 +45,8 @@ const logos = [
   borsa003,
   borsa004,
   borsa3,
+  borsa4,
+  borsa5,
   poltrona005,
   poltrona006,
 ];
