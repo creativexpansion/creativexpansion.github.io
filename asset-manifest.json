@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.1683b3c7.js",
+    "main.js": "/static/js/main.ffb9dd61.js",
     "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
     "static/media/alberi009.jpg": "/static/media/alberi009.b3e68af0f5382615fd38.jpg",
@@ -38,6 +38,7 @@
     "static/media/borsa4.png": "/static/media/borsa4.6657a337e9b6987a8b8f.png",
     "static/media/borsa5.png": "/static/media/borsa5.98d01fba0f535d0c1d25.png",
     "static/media/mockup009.jpg": "/static/media/mockup009.bf5053aef14e9ca401fd.jpg",
+    "static/media/orecchino1.png": "/static/media/orecchino1.0fd6156015d2c9ec521c.png",
     "static/media/oreficeria001.png": "/static/media/oreficeria001.1ecac3fd0e82df6926c3.png",
     "static/media/gioiello3.png": "/static/media/gioiello3.df921700cea269466197.png",
     "static/media/borsa003.png": "/static/media/borsa003.08c4ebb56853e739feac.png",
@@ -53,10 +54,10 @@
     "static/media/fam010.png": "/static/media/fam010.bb23136715c1e10e73b3.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.1683b3c7.js.map": "/static/js/main.1683b3c7.js.map"
+    "main.ffb9dd61.js.map": "/static/js/main.ffb9dd61.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.1683b3c7.js"
+    "static/js/main.ffb9dd61.js"
   ]
 }
