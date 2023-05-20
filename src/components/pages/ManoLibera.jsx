@@ -10,6 +10,8 @@ import borsa3 from "../../assets/images/portfolio/freehand/borsa3.png";
 import borsa4 from "../../assets/images/portfolio/freehand/borsa4.png";
 import borsa5 from "../../assets/images/portfolio/freehand/borsa5.png";
 import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
+import bracciale1 from "../../assets/images/portfolio/freehand/bracciale1.png";
+import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
@@ -42,6 +44,8 @@ const logos = [
   oreficeria001,
   oreficeria002,
   gioiello3,
+  bracciale1,
+  bracciale2,
   borsa003,
   borsa004,
   borsa3,
