@@ -13,6 +13,7 @@ import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
 import bracciale1 from "../../assets/images/portfolio/freehand/bracciale1.png";
 import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
 import orecchino1 from "../../assets/images/portfolio/freehand/orecchino1.png";
+import anello1 from "../../assets/images/portfolio/freehand/anello1.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
@@ -48,6 +49,7 @@ const logos = [
   bracciale1,
   bracciale2,
   orecchino1,
+  anello1,
   borsa003,
   borsa004,
   borsa3,
