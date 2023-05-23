@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOMClient from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import ReactGA from "react-ga4";
 
-ReactDOM.render(
+ReactGA.initialize([
+  {
+    trackingId: "G-TPC3TH7XHN",
+    gaOptions: {},
+    gtagOptions: {},
+  },
+]);
+
+const container = document.getElementById("root");
+// Create a root.
+const root = ReactDOMClient.createRoot(container);
+
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
