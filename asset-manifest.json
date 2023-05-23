@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f181fcb4.css",
-    "main.js": "/static/js/main.6cf507fb.js",
+    "main.js": "/static/js/main.9109a839.js",
     "static/media/home002.jpg": "/static/media/home002.fe7327ad795ac2c1b406.jpg",
     "static/media/contact004.jpg": "/static/media/contact004.959b6090e0bee4ab477d.jpg",
     "static/media/alberi009.jpg": "/static/media/alberi009.b3e68af0f5382615fd38.jpg",
@@ -26,8 +26,10 @@
     "static/media/mockup003.jpg": "/static/media/mockup003.66c401596b5801df8b44.jpg",
     "static/media/mockup002.jpg": "/static/media/mockup002.60b337aeaec31ef16b6b.jpg",
     "static/media/mockup005.jpg": "/static/media/mockup005.76f4b12961a7997bbf54.jpg",
+    "static/media/borsa7.png": "/static/media/borsa7.7b99c6194ac518ba0976.png",
     "static/media/mockup014.jpg": "/static/media/mockup014.ae3368f39d886bc37f8d.jpg",
     "static/media/mockup013.jpg": "/static/media/mockup013.4e2a076719d1819d8329.jpg",
+    "static/media/borsa6.png": "/static/media/borsa6.f0717f29f87da94c6425.png",
     "static/media/mockup012.jpg": "/static/media/mockup012.79c80f3b32489acb23ae.jpg",
     "static/media/mockup001.jpg": "/static/media/mockup001.f06d041f8e1d74c0d82b.jpg",
     "static/media/poltrona005.png": "/static/media/poltrona005.438f6db0b795731b8ead.png",
@@ -55,10 +57,10 @@
     "static/media/fam010.png": "/static/media/fam010.bb23136715c1e10e73b3.png",
     "index.html": "/index.html",
     "main.f181fcb4.css.map": "/static/css/main.f181fcb4.css.map",
-    "main.6cf507fb.js.map": "/static/js/main.6cf507fb.js.map"
+    "main.9109a839.js.map": "/static/js/main.9109a839.js.map"
   },
   "entrypoints": [
     "static/css/main.f181fcb4.css",
-    "static/js/main.6cf507fb.js"
+    "static/js/main.9109a839.js"
   ]
 }
