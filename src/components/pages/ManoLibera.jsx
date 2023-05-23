@@ -9,6 +9,8 @@ import poltrona006 from "../../assets/images/portfolio/freehand/poltrona006.png"
 import borsa3 from "../../assets/images/portfolio/freehand/borsa3.png";
 import borsa4 from "../../assets/images/portfolio/freehand/borsa4.png";
 import borsa5 from "../../assets/images/portfolio/freehand/borsa5.png";
+import borsa6 from "../../assets/images/portfolio/freehand/borsa6.png";
+import borsa7 from "../../assets/images/portfolio/freehand/borsa7.png";
 import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
 import bracciale1 from "../../assets/images/portfolio/freehand/bracciale1.png";
 import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
@@ -55,6 +57,8 @@ const logos = [
   borsa3,
   borsa4,
   borsa5,
+  borsa6,
+  borsa7,
   poltrona005,
   poltrona006,
 ];
