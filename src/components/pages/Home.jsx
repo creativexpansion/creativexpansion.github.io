@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import home002 from "../../assets/images/home/home002.jpg";
+import graphic003 from "../../assets/images/home/graphic003.jpg";
 import PageContainer from "../PageContainer";
 
 const StyledHome = styled.div`
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <PageContainer>
       <StyledHome>
-        <img src={home002} alt="welcome" />
+        <img src={graphic003} alt="welcome" />
       </StyledHome>
     </PageContainer>
   );
