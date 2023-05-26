@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styled from "styled-components";
-import contact004 from "../../assets/images/contacts/contact004.jpg";
+import contact006 from "../../assets/images/contacts/contact006.jpg";
 import PageContainer from "../PageContainer";
 import Separator from "../Separator";
 import { titlePrefix } from "../utils";
@@ -41,7 +41,7 @@ const Contacts = () => {
         </p>
         <Separator margin="5px 0 30px" />
         <div className="contactsImage">
-          <img src={contact004} alt="contacts" />
+          <img src={contact006} alt="contacts" />
         </div>
       </StyledContacts>
     </PageContainer>
