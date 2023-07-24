@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <PageContainer>
       <StyledServices>
-        <img src={image[i18n.language]} alt="welcome" />
+        <img src={image[i18n.language ?? 'it']} alt="welcome" />
       </StyledServices>
     </PageContainer>
   );
