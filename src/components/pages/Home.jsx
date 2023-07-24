@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import graphic003 from "../../assets/images/home/graphic003.jpg";
 import PageContainer from "../PageContainer";
+import { useTranslation } from "react-i18next";
 
 const StyledHome = styled.div`
   width: 100%;
@@ -11,6 +12,7 @@ const StyledHome = styled.div`
 `;
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <PageContainer>
       <StyledHome>

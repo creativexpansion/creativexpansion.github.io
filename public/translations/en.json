@@ -1,0 +1,15 @@
+{
+  "header.menu.services": "services",
+  "header.menu.portfolio": "portfolio",
+  "header.menu.contact": "contact",
+  "header.subtitle.main": "innovative ideas",
+  "header.subtitle.rest": ", high creative and project design ability",
+
+  "portfolio.menu.logoDesign": "logo design",
+  "portfolio.menu.mockup": "mockup",
+  "portfolio.menu.interiorDesign": "interior design",
+  "portfolio.menu.freehand": "freehand",
+  "portfolio.menu.photoImage": "photo image",
+
+  "footer.copyright": "All rights reserved"
+}

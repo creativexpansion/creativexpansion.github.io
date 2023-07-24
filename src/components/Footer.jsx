@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Separator from "./Separator";
+import { useTranslation } from "react-i18next";
 
 const StyledFooter = styled.div`
   color: #707070;
@@ -10,10 +11,11 @@ const StyledFooter = styled.div`
 `;
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <StyledFooter>
       <Separator margin="43px 0 20px" />
-      Tutti i diritti sono riservati - <a href="/" target="_blank">creativexpansion.com</a>
+      {t('footer.copyright')} - <a href="/" target="_blank">creativexpansion.com</a>
     </StyledFooter>
   );
 };

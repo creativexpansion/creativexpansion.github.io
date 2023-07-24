@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Logo from "../assets/logo.png";
 import Separator from "./Separator";
 import { useActivePath } from "./utils";
+import { LanguageSelector } from "./LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const StyledHeader = styled.div`
   display: flex;
@@ -75,6 +77,7 @@ const StyledHeader = styled.div`
 `;
 
 const Header = () => {
+  const { t } = useTranslation();
   const requestRef = useRef();
   const canvasRef = useRef(null);
   let activeLink = {
@@ -279,23 +282,24 @@ const Header = () => {
           <img alt="Creativexpansion Logo" src={Logo} />
         </a>
         <p className="subtitle">
-          <span className="main">idee innovative</span>, alta capacità creativa
-          e progettuale
+          <span className="main">{t("header.subtitle.main")}</span>
+          {t("header.subtitle.rest")}
         </p>
       </div>
       <Separator margin="30px 0 0" />
       <div className="menu">
         <div className="links">
           <a className={activeLink.servizi} href="/servizi">
-            servizi
+            {t('header.menu.services')}
           </a>
           <a className={activeLink.portfolio} href="/portfolio">
-            portfolio
+            {t('header.menu.portfolio')}
           </a>
           <a className={activeLink.contatti} href="/contatti">
-            contatti
+            {t('header.menu.contact')}
           </a>
         </div>
+        <LanguageSelector />
         <div className="clocks">
           <canvas ref={canvasRef} width={282} height={74} />
         </div>
