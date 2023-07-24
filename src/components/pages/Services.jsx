@@ -21,13 +21,15 @@ const image = {
 
 const Services = () => {
   const { i18n } = useTranslation();
+
   useEffect(() => {
     document.title = titlePrefix + "servizi";
   }, []);
+
   return (
     <PageContainer>
       <StyledServices>
-        <img src={image[i18n.language ?? 'it']} alt="welcome" />
+        <img src={image[i18n.language.slice(0, 2)]} alt="welcome" />
       </StyledServices>
     </PageContainer>
   );
