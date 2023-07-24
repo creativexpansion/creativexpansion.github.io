@@ -11,7 +11,7 @@ export const DEFAULT_LANGUAGE_CODE =
 export const LanguageSelector = () => {
   const { i18n } = useTranslation();
 
-  const currentLanguage = i18n.language ?? DEFAULT_LANGUAGE_CODE;
+  const currentLanguage = (i18n.language ?? DEFAULT_LANGUAGE_CODE).slice(0, 2);
 
   useEffect(() => {
     localStorage.setItem("celang", currentLanguage);
