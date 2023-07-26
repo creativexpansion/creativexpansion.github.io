@@ -36,10 +36,14 @@ const StyledHeader = styled.div`
     min-height: 64px;
     margin-bottom: 5px;
 
-    .links a {
-      margin-right: 20px;
-      margin-left: 0;
-      font-size: 18px;
+    .links {
+      flex-grow: 1;
+
+      a {
+        margin-right: 20px;
+        margin-left: 0;
+        font-size: 18px;
+      }
     }
 
     .clocks {
@@ -290,13 +294,13 @@ const Header = () => {
       <div className="menu">
         <div className="links">
           <a className={activeLink.servizi} href="/servizi">
-            {t('header.menu.services')}
+            {t("header.menu.services")}
           </a>
           <a className={activeLink.portfolio} href="/portfolio">
-            {t('header.menu.portfolio')}
+            {t("header.menu.portfolio")}
           </a>
           <a className={activeLink.contatti} href="/contatti">
-            {t('header.menu.contact')}
+            {t("header.menu.contact")}
           </a>
         </div>
         <LanguageSelector />
