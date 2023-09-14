@@ -7,6 +7,7 @@ import LogoDesign from "./LogoDesign";
 import ManoLibera from "./ManoLibera";
 import Mockup from "./Mockup";
 import Photos from "./Photos";
+import { useTranslation } from "react-i18next";
 
 export const PORTFOLIO = {
   LOGO_DESIGN: "LOGO_DESIGN",
@@ -59,6 +60,7 @@ const Portfolios = {
 };
 
 const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
+  const { t } = useTranslation();
   const isMainPortfolio = useActivePath("/portfolio");
   const activeLink = {
     logoDesign: useActivePath("/portfolio/logo-design") || isMainPortfolio,
@@ -74,25 +76,25 @@ const Portfolio = ({ selectedPortfolio = PORTFOLIO.LOGO_DESIGN }) => {
         <div className="submenu">
           <div className="links">
             <a className={activeLink.logoDesign} href="/portfolio/logo-design">
-              logo design
+              {t("portfolio.menu.logoDesign")}
             </a>
             <a className={activeLink.mockup} href="/portfolio/mockup">
-              mockup
+              {t("portfolio.menu.mockup")}
             </a>
             <a
               className={activeLink.interiorDesign}
               href="/portfolio/interior-design"
             >
-              interior design
+              {t("portfolio.menu.interiorDesign")}
             </a>
             <a className={activeLink.manoLibera} href="/portfolio/mano-libera">
-              mano libera
+              {t("portfolio.menu.freehand")}
             </a>
             <a
               className={activeLink.fotoImmagine}
               href="/portfolio/foto-immagine"
             >
-              foto immagine
+              {t("portfolio.menu.photoImage")}
             </a>
           </div>
         </div>
