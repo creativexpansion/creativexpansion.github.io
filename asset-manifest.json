@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.4da63fad.js",
+    "main.js": "/static/js/main.6c3ab821.js",
     "static/media/graphic003.jpg": "/static/media/graphic003.f98e316756af8b667a11.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
     "static/media/graphicS008_it.jpg": "/static/media/graphicS008_it.978cdf7b248d6a103f56.jpg",
@@ -42,14 +42,14 @@
     "static/media/borsa5.png": "/static/media/borsa5.98d01fba0f535d0c1d25.png",
     "static/media/mockup009.jpg": "/static/media/mockup009.bf5053aef14e9ca401fd.jpg",
     "static/media/orecchino1.png": "/static/media/orecchino1.0fd6156015d2c9ec521c.png",
-    "static/media/oreficeria001.png": "/static/media/oreficeria001.1ecac3fd0e82df6926c3.png",
+    "static/media/gioiello1.png": "/static/media/gioiello1.1ecac3fd0e82df6926c3.png",
     "static/media/gioiello3.png": "/static/media/gioiello3.df921700cea269466197.png",
-    "static/media/borsa003.png": "/static/media/borsa003.08c4ebb56853e739feac.png",
-    "static/media/borsa004.png": "/static/media/borsa004.2bff31ee5e1dec561bfb.png",
+    "static/media/borsa1.png": "/static/media/borsa1.08c4ebb56853e739feac.png",
+    "static/media/borsa2.png": "/static/media/borsa2.2bff31ee5e1dec561bfb.png",
     "static/media/borsa3.png": "/static/media/borsa3.dfcda81553b85f073cbd.png",
     "static/media/chi005.png": "/static/media/chi005.a380a6fc01e748d82a6f.png",
     "static/media/anello1.png": "/static/media/anello1.bfc0f097b2eb4d9412a8.png",
-    "static/media/oreficeria002.png": "/static/media/oreficeria002.75400806f96192d9ba79.png",
+    "static/media/gioiello2.png": "/static/media/gioiello2.75400806f96192d9ba79.png",
     "static/media/logo.png": "/static/media/logo.9b931652b1526f060fe5.png",
     "static/media/sca009.png": "/static/media/sca009.6aaca687c014b96fe828.png",
     "static/media/inn003.png": "/static/media/inn003.30a7a81297bb5a2fb4db.png",
@@ -59,10 +59,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.4da63fad.js.map": "/static/js/main.4da63fad.js.map"
+    "main.6c3ab821.js.map": "/static/js/main.6c3ab821.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.4da63fad.js"
+    "static/js/main.6c3ab821.js"
   ]
 }
