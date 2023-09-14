@@ -1,20 +1,31 @@
 import { useEffect } from "react";
 import styled from "styled-components";
-import borsa003 from "../../assets/images/portfolio/freehand/borsa003.png";
-import borsa004 from "../../assets/images/portfolio/freehand/borsa004.png";
-import oreficeria001 from "../../assets/images/portfolio/freehand/oreficeria001.png";
-import oreficeria002 from "../../assets/images/portfolio/freehand/oreficeria002.png";
+import gioiello1 from "../../assets/images/portfolio/freehand/gioiello1.png";
+import gioiello11 from "../../assets/images/portfolio/freehand/gioiello11.png";
+import gioiello2 from "../../assets/images/portfolio/freehand/gioiello2.png";
+import gioiello22 from "../../assets/images/portfolio/freehand/gioiello22.png";
 import poltrona005 from "../../assets/images/portfolio/freehand/poltrona005.png";
 import poltrona006 from "../../assets/images/portfolio/freehand/poltrona006.png";
+import borsa1 from "../../assets/images/portfolio/freehand/borsa1.png";
+import borsa2 from "../../assets/images/portfolio/freehand/borsa2.png";
 import borsa3 from "../../assets/images/portfolio/freehand/borsa3.png";
 import borsa4 from "../../assets/images/portfolio/freehand/borsa4.png";
 import borsa5 from "../../assets/images/portfolio/freehand/borsa5.png";
 import borsa6 from "../../assets/images/portfolio/freehand/borsa6.png";
 import borsa7 from "../../assets/images/portfolio/freehand/borsa7.png";
+import borsa11 from "../../assets/images/portfolio/freehand/borsa11.png";
+import borsa22 from "../../assets/images/portfolio/freehand/borsa22.png";
+import borsa33 from "../../assets/images/portfolio/freehand/borsa33.png";
+import borsa44 from "../../assets/images/portfolio/freehand/borsa44.png";
+import borsa55 from "../../assets/images/portfolio/freehand/borsa55.png";
+import borsa66 from "../../assets/images/portfolio/freehand/borsa66.png";
+import borsa77 from "../../assets/images/portfolio/freehand/borsa77.png";
 import gioiello3 from "../../assets/images/portfolio/freehand/gioiello3.png";
+import gioiello33 from "../../assets/images/portfolio/freehand/gioiello33.png";
 import bracciale1 from "../../assets/images/portfolio/freehand/bracciale1.png";
 import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
 import orecchino1 from "../../assets/images/portfolio/freehand/orecchino1.png";
+import orecchino11 from "../../assets/images/portfolio/freehand/orecchino11.png";
 import anello1 from "../../assets/images/portfolio/freehand/anello1.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
@@ -45,22 +56,33 @@ const StyledManoLibera = styled.div`
 `;
 
 const logos = [
-  oreficeria001,
-  oreficeria002,
+  gioiello1,
+  gioiello11,
+  gioiello2,
+  gioiello22,
   gioiello3,
+  gioiello33,
   bracciale1,
   bracciale2,
   orecchino1,
-  anello1,
-  borsa003,
-  borsa004,
+  orecchino11,
+  borsa1,
+  borsa11,
+  borsa2,
+  borsa22,
   borsa3,
+  borsa33,
   borsa4,
+  borsa44,
   borsa5,
+  borsa55,
   borsa6,
+  borsa66,
   borsa7,
+  borsa77,
   poltrona005,
   poltrona006,
+  anello1,
 ];
 
 const ManoLibera = () => {
