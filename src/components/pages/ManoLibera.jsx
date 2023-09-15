@@ -26,7 +26,6 @@ import bracciale1 from "../../assets/images/portfolio/freehand/bracciale1.png";
 import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
 import orecchino1 from "../../assets/images/portfolio/freehand/orecchino1.png";
 import orecchino11 from "../../assets/images/portfolio/freehand/orecchino11.png";
-import anello1 from "../../assets/images/portfolio/freehand/anello1.png";
 import { titlePrefix } from "../utils";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
@@ -82,7 +81,6 @@ const logos = [
   borsa77,
   poltrona005,
   poltrona006,
-  anello1,
 ];
 
 const ManoLibera = () => {
