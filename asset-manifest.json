@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.b816bba8.js",
+    "main.js": "/static/js/main.8ea3abce.js",
     "static/media/graphic003.jpg": "/static/media/graphic003.f98e316756af8b667a11.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
     "static/media/graphicS008_it.jpg": "/static/media/graphicS008_it.978cdf7b248d6a103f56.jpg",
@@ -33,7 +33,6 @@
     "static/media/mockup001.jpg": "/static/media/mockup001.f06d041f8e1d74c0d82b.jpg",
     "static/media/mockup011.jpg": "/static/media/mockup011.74bbe620e3b55a6a6aee.jpg",
     "static/media/mockup009.jpg": "/static/media/mockup009.bf5053aef14e9ca401fd.jpg",
-    "static/media/logo.png": "/static/media/logo.9b931652b1526f060fe5.png",
     "static/media/borsa6.png": "/static/media/borsa6.672f86e7cd5f6dc040ab.png",
     "static/media/borsa7.png": "/static/media/borsa7.58c22c494bae3b502556.png",
     "static/media/poltrona005.png": "/static/media/poltrona005.f592c5ef10b44d53db62.png",
@@ -41,10 +40,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.b816bba8.js.map": "/static/js/main.b816bba8.js.map"
+    "main.8ea3abce.js.map": "/static/js/main.8ea3abce.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.b816bba8.js"
+    "static/js/main.8ea3abce.js"
   ]
 }
