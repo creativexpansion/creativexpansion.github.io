@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.35256a77.js",
+    "main.js": "/static/js/main.af8d9f0b.js",
     "static/media/graphic003.jpg": "/static/media/graphic003.f98e316756af8b667a11.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
     "static/media/graphicS008_it.jpg": "/static/media/graphicS008_it.978cdf7b248d6a103f56.jpg",
@@ -27,41 +27,30 @@
     "static/media/mockup003.jpg": "/static/media/mockup003.66c401596b5801df8b44.jpg",
     "static/media/mockup002.jpg": "/static/media/mockup002.60b337aeaec31ef16b6b.jpg",
     "static/media/mockup005.jpg": "/static/media/mockup005.76f4b12961a7997bbf54.jpg",
-    "static/media/borsa7.png": "/static/media/borsa7.7b99c6194ac518ba0976.png",
     "static/media/mockup014.jpg": "/static/media/mockup014.ae3368f39d886bc37f8d.jpg",
     "static/media/mockup013.jpg": "/static/media/mockup013.4e2a076719d1819d8329.jpg",
-    "static/media/borsa6.png": "/static/media/borsa6.f0717f29f87da94c6425.png",
     "static/media/mockup012.jpg": "/static/media/mockup012.79c80f3b32489acb23ae.jpg",
     "static/media/mockup001.jpg": "/static/media/mockup001.f06d041f8e1d74c0d82b.jpg",
-    "static/media/poltrona005.png": "/static/media/poltrona005.438f6db0b795731b8ead.png",
-    "static/media/bracciale2.png": "/static/media/bracciale2.df43adabc73bfd9efc24.png",
-    "static/media/poltrona006.png": "/static/media/poltrona006.97394c054e45e53e4c98.png",
-    "static/media/bracciale1.png": "/static/media/bracciale1.e87b0b943eab621064ab.png",
     "static/media/mockup011.jpg": "/static/media/mockup011.74bbe620e3b55a6a6aee.jpg",
-    "static/media/borsa4.png": "/static/media/borsa4.6657a337e9b6987a8b8f.png",
-    "static/media/borsa5.png": "/static/media/borsa5.98d01fba0f535d0c1d25.png",
     "static/media/mockup009.jpg": "/static/media/mockup009.bf5053aef14e9ca401fd.jpg",
-    "static/media/orecchino1.png": "/static/media/orecchino1.0fd6156015d2c9ec521c.png",
-    "static/media/gioiello1.png": "/static/media/gioiello1.1ecac3fd0e82df6926c3.png",
-    "static/media/gioiello3.png": "/static/media/gioiello3.df921700cea269466197.png",
-    "static/media/borsa1.png": "/static/media/borsa1.08c4ebb56853e739feac.png",
-    "static/media/borsa2.png": "/static/media/borsa2.2bff31ee5e1dec561bfb.png",
-    "static/media/borsa3.png": "/static/media/borsa3.dfcda81553b85f073cbd.png",
     "static/media/chi005.png": "/static/media/chi005.a380a6fc01e748d82a6f.png",
-    "static/media/gioiello2.png": "/static/media/gioiello2.75400806f96192d9ba79.png",
     "static/media/logo.png": "/static/media/logo.9b931652b1526f060fe5.png",
     "static/media/sca009.png": "/static/media/sca009.6aaca687c014b96fe828.png",
+    "static/media/borsa6.png": "/static/media/borsa6.672f86e7cd5f6dc040ab.png",
     "static/media/inn003.png": "/static/media/inn003.30a7a81297bb5a2fb4db.png",
     "static/media/stu_012.png": "/static/media/stu_012.7d7cf67c3e2cf8572451.png",
     "static/media/gol008.png": "/static/media/gol008.9a597f862dde7ac08bbd.png",
+    "static/media/borsa7.png": "/static/media/borsa7.58c22c494bae3b502556.png",
+    "static/media/poltrona005.png": "/static/media/poltrona005.f592c5ef10b44d53db62.png",
+    "static/media/poltrona006.png": "/static/media/poltrona006.af9f1a82b7c80939ad78.png",
     "static/media/fam010.png": "/static/media/fam010.bb23136715c1e10e73b3.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.35256a77.js.map": "/static/js/main.35256a77.js.map"
+    "main.af8d9f0b.js.map": "/static/js/main.af8d9f0b.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.35256a77.js"
+    "static/js/main.af8d9f0b.js"
   ]
 }
