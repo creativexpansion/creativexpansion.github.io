@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.af8d9f0b.js",
+    "main.js": "/static/js/main.b816bba8.js",
     "static/media/graphic003.jpg": "/static/media/graphic003.f98e316756af8b667a11.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
     "static/media/graphicS008_it.jpg": "/static/media/graphicS008_it.978cdf7b248d6a103f56.jpg",
@@ -33,24 +33,18 @@
     "static/media/mockup001.jpg": "/static/media/mockup001.f06d041f8e1d74c0d82b.jpg",
     "static/media/mockup011.jpg": "/static/media/mockup011.74bbe620e3b55a6a6aee.jpg",
     "static/media/mockup009.jpg": "/static/media/mockup009.bf5053aef14e9ca401fd.jpg",
-    "static/media/chi005.png": "/static/media/chi005.a380a6fc01e748d82a6f.png",
     "static/media/logo.png": "/static/media/logo.9b931652b1526f060fe5.png",
-    "static/media/sca009.png": "/static/media/sca009.6aaca687c014b96fe828.png",
     "static/media/borsa6.png": "/static/media/borsa6.672f86e7cd5f6dc040ab.png",
-    "static/media/inn003.png": "/static/media/inn003.30a7a81297bb5a2fb4db.png",
-    "static/media/stu_012.png": "/static/media/stu_012.7d7cf67c3e2cf8572451.png",
-    "static/media/gol008.png": "/static/media/gol008.9a597f862dde7ac08bbd.png",
     "static/media/borsa7.png": "/static/media/borsa7.58c22c494bae3b502556.png",
     "static/media/poltrona005.png": "/static/media/poltrona005.f592c5ef10b44d53db62.png",
     "static/media/poltrona006.png": "/static/media/poltrona006.af9f1a82b7c80939ad78.png",
-    "static/media/fam010.png": "/static/media/fam010.bb23136715c1e10e73b3.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.af8d9f0b.js.map": "/static/js/main.af8d9f0b.js.map"
+    "main.b816bba8.js.map": "/static/js/main.b816bba8.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.af8d9f0b.js"
+    "static/js/main.b816bba8.js"
   ]
 }
