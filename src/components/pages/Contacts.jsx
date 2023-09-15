@@ -1,9 +1,10 @@
-import { useEffect } from "react";
 import styled from "styled-components";
 import contact006 from "../../assets/images/contacts/contact006.jpg";
 import PageContainer from "../PageContainer";
 import Separator from "../Separator";
 import { titlePrefix } from "../utils";
+import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 const StyledContacts = styled.div`
   .contactsImage {
@@ -27,11 +28,13 @@ const StyledContacts = styled.div`
 `;
 
 const Contacts = () => {
-  useEffect(() => {
-    document.title = titlePrefix + 'contatti';
-  }, []);
+  const { t } = useTranslation();
+
   return (
     <PageContainer>
+      <Helmet>
+        <title>{`${titlePrefix}${t('header.menu.contact')}`}</title>
+      </Helmet>
       <StyledContacts>
         <p className="email">
           <span>marco ciacco - </span>

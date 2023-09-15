@@ -6,10 +6,17 @@ import Contacts from "./components/pages/Contacts";
 import Home from "./components/pages/Home";
 import Portfolio, { PORTFOLIO } from "./components/pages/Portfolio";
 import Services from "./components/pages/Services";
+import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <div className="App">
+      <Helmet>
+        <meta name="description" content={t("head.description")} />
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

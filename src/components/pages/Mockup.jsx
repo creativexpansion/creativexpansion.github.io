@@ -14,8 +14,9 @@ import mockup012 from "../../assets/images/portfolio/mockup/mockup012.jpg";
 import mockup013 from "../../assets/images/portfolio/mockup/mockup013.jpg";
 import mockup014 from "../../assets/images/portfolio/mockup/mockup014.jpg";
 import Carousel from "../Carousel";
-import { useEffect } from "react";
 import { titlePrefix } from "../utils";
+import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 const StyledMockup = styled.div``;
 
 const images = [
@@ -36,11 +37,14 @@ const images = [
 ];
 
 const Mockup = () => {
-  useEffect(() => {
-    document.title = titlePrefix + "Portfolio | Mockup";
-  }, []);
+  const { t } = useTranslation();
   return (
     <StyledMockup>
+      <Helmet>
+        <title>{`${titlePrefix}${t("header.menu.portfolio")} | ${t(
+          "portfolio.menu.mockup"
+        )}`}</title>
+      </Helmet>
       <Carousel images={images} />
     </StyledMockup>
   );

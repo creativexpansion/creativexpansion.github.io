@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import styled from "styled-components";
 import aer002 from "../../assets/images/portfolio/logos/aer002.png";
 import can004 from "../../assets/images/portfolio/logos/can004.png";
@@ -15,6 +14,8 @@ import stu012 from "../../assets/images/portfolio/logos/stu_012.png";
 import cre013 from "../../assets/images/portfolio/logos/cre_013.png";
 import ugu014 from "../../assets/images/portfolio/logos/ugu_014.png";
 import { titlePrefix } from "../utils";
+import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 const StyledLogoDesign = styled.div`
   width: calc(100% + 34px);
   display: flex;
@@ -28,7 +29,7 @@ const StyledLogoDesign = styled.div`
     /* max-width: calc(50% - 36px); */
     /* border: 1px solid #333333; */
     margin: 17px;
-    box-shadow: inset 0 0 0 1px rgb(51,51,51);
+    box-shadow: inset 0 0 0 1px rgb(51, 51, 51);
   }
 
   @media (max-width: 370px) {
@@ -59,11 +60,14 @@ const logos = [
 ];
 
 const LogoDesign = () => {
-  useEffect(() => {
-    document.title = titlePrefix + "Portfolio | Logo Design";
-  }, []);
+  const { t } = useTranslation();
   return (
     <StyledLogoDesign>
+      <Helmet>
+        <title>{`${titlePrefix}${t("header.menu.portfolio")} | ${t(
+          "portfolio.menu.logoDesign"
+        )}`}</title>
+      </Helmet>
       {logos.map((logo, key) => (
         <img key={key} alt={"logo " + key} src={logo} />
       ))}

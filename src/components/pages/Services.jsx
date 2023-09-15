@@ -1,10 +1,10 @@
-import { useEffect } from "react";
 import styled from "styled-components";
 import graphicS008_it from "../../assets/images/services/graphicS008_it.jpg";
 import graphicS008_en from "../../assets/images/services/graphicS008_en.jpg";
 import PageContainer from "../PageContainer";
 import { titlePrefix } from "../utils";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 const StyledServices = styled.div`
   width: 100%;
@@ -20,14 +20,13 @@ const image = {
 };
 
 const Services = () => {
-  const { i18n } = useTranslation();
-
-  useEffect(() => {
-    document.title = titlePrefix + "servizi";
-  }, []);
+  const { i18n, t } = useTranslation();
 
   return (
     <PageContainer>
+    <Helmet>
+      <title>{`${titlePrefix}${t("header.menu.services")}`}</title>
+    </Helmet>
       <StyledServices>
         <img src={image[i18n.language.slice(0, 2)]} alt="welcome" />
       </StyledServices>

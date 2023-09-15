@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import styled from "styled-components";
 import gioiello1 from "../../assets/images/portfolio/freehand/gioiello1.png";
 import gioiello11 from "../../assets/images/portfolio/freehand/gioiello11.png";
@@ -27,6 +26,8 @@ import bracciale2 from "../../assets/images/portfolio/freehand/bracciale2.png";
 import orecchino1 from "../../assets/images/portfolio/freehand/orecchino1.png";
 import orecchino11 from "../../assets/images/portfolio/freehand/orecchino11.png";
 import { titlePrefix } from "../utils";
+import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 const StyledManoLibera = styled.div`
   width: calc(100% + 34px);
   display: flex;
@@ -40,8 +41,7 @@ const StyledManoLibera = styled.div`
     /* max-width: calc(50% - 36px); */
     /* border: 1px solid #333333; */
     margin: 17px;
-    box-shadow: inset 0 0 0 1px rgb(51,51,51);
-    
+    box-shadow: inset 0 0 0 1px rgb(51, 51, 51);
   }
 
   @media (max-width: 370px) {
@@ -84,11 +84,14 @@ const logos = [
 ];
 
 const ManoLibera = () => {
-  useEffect(() => {
-    document.title = titlePrefix + "Portfolio | Mano Libera";
-  }, []);
+  const { t } = useTranslation();
   return (
     <StyledManoLibera>
+      <Helmet>
+        <title>{`${titlePrefix}${t("header.menu.portfolio")} | ${t(
+          "portfolio.menu.freehand"
+        )}`}</title>
+      </Helmet>
       {logos.map((logo, key) => (
         <img key={key} alt={"mano libera " + key} src={logo} />
       ))}
