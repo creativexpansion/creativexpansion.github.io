@@ -5,11 +5,11 @@ import Header from "./Header";
 const StyledPageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background: #272727;
+  background: #1f1f1f;
   color: #ffffff;
   width: 100%;
-  max-width: 800px;
-  padding: 43px 43px 20px;
+  max-width: 1100px;
+  padding: 45px 0;
 
   .welcomeImage {
     width: 100%;
@@ -18,6 +18,7 @@ const StyledPageContainer = styled.div`
       width: 100%;
     }
   }
+
   a {
     text-decoration: none;
     color: #ffffff;

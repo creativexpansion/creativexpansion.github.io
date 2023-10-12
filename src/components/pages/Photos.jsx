@@ -1,31 +1,75 @@
 import styled from "styled-components";
-import matite001 from "../../assets/images/portfolio/photos/matite001.jpg";
-import mare002 from "../../assets/images/portfolio/photos/mare002.jpg";
-import mare003 from "../../assets/images/portfolio/photos/mare003.jpg";
-import mare004 from "../../assets/images/portfolio/photos/mare004.jpg";
-import newYork005 from "../../assets/images/portfolio/photos/newYork005.jpg";
-import mixer006 from "../../assets/images/portfolio/photos/mixer006.jpg";
-import piatto007 from "../../assets/images/portfolio/photos/piatto007.jpg";
-import tunisi008 from "../../assets/images/portfolio/photos/tunisi008.jpg";
-import alberi009 from "../../assets/images/portfolio/photos/alberi009.jpg";
-import cielo010 from "../../assets/images/portfolio/photos/cielo010.jpg";
-import Carousel from "../Carousel";
+import foto_001 from "../../assets/images/portfolio/photos/foto_001.jpg"
+import foto_002 from "../../assets/images/portfolio/photos/foto_002.jpg"
+import foto_003 from "../../assets/images/portfolio/photos/foto_003.jpg"
+import foto_004 from "../../assets/images/portfolio/photos/foto_004.jpg"
+import foto_005 from "../../assets/images/portfolio/photos/foto_005.jpg"
+import foto_006 from "../../assets/images/portfolio/photos/foto_006.jpg"
+import foto_007 from "../../assets/images/portfolio/photos/foto_007.jpg"
+import foto_008 from "../../assets/images/portfolio/photos/foto_008.jpg"
+import foto_009 from "../../assets/images/portfolio/photos/foto_009.jpg"
+import foto_010 from "../../assets/images/portfolio/photos/foto_010.jpg"
+import foto_011 from "../../assets/images/portfolio/photos/foto_011.jpg"
+import foto_012 from "../../assets/images/portfolio/photos/foto_012.jpg"
+import foto_013 from "../../assets/images/portfolio/photos/foto_013.jpg"
+import foto_014 from "../../assets/images/portfolio/photos/foto_014.jpg"
+import foto_015 from "../../assets/images/portfolio/photos/foto_015.jpg"
+import foto_016 from "../../assets/images/portfolio/photos/foto_016.jpg"
+import foto_017 from "../../assets/images/portfolio/photos/foto_017.jpg"
+import foto_018 from "../../assets/images/portfolio/photos/foto_018.jpg"
+import foto_019 from "../../assets/images/portfolio/photos/foto_019.jpg"
+import foto_020 from "../../assets/images/portfolio/photos/foto_020.jpg"
+import foto_021 from "../../assets/images/portfolio/photos/foto_021.jpg"
 import { titlePrefix } from "../utils";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-const StyledPhotos = styled.div``;
+
+const StyledPhotos = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 58px;
+
+  img {
+    width: calc(33% - 36px);
+  }
+
+  @media (max-width: 798px) {
+    img {
+      width: calc(50% - 29px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 100%;
+      max-width: 331px;
+    }
+  }
+`;
 
 const images = [
-  matite001,
-  mare002,
-  mare003,
-  mare004,
-  newYork005,
-  mixer006,
-  piatto007,
-  tunisi008,
-  alberi009,
-  cielo010,
+  foto_001,
+  foto_002,
+  foto_003,
+  foto_004,
+  foto_005,
+  foto_006,
+  foto_007,
+  foto_008,
+  foto_009,
+  foto_010,
+  foto_011,
+  foto_012,
+  foto_013,
+  foto_014,
+  foto_015,
+  foto_016,
+  foto_017,
+  foto_018,
+  foto_019,
+  foto_020,
+  foto_021,
 ];
 
 const Photos = () => {
@@ -37,7 +81,7 @@ const Photos = () => {
           "portfolio.menu.photoImage"
         )}`}</title>
       </Helmet>
-      <Carousel images={images} />
+        {images.map((image, key) => <img key={key} src={image} alt={`photo_${key}`} />)}
     </StyledPhotos>
   );
 };

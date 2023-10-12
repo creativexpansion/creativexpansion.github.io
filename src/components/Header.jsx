@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef } from "react";
 import styled from "styled-components";
 import Logo from "../assets/logo.png";
-import Separator from "./Separator";
 import { useActivePath } from "./utils";
 import { LanguageSelector } from "./LanguageSelector";
 import { useTranslation } from "react-i18next";
+import DeepSection from "./DeepSection";
 
 const StyledHeader = styled.div`
   display: flex;
@@ -14,27 +14,34 @@ const StyledHeader = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 45px;
 
     img {
       margin-right: 128px;
     }
+  }
 
-    .subtitle {
-      margin-top: -7px;
-      line-height: 1;
-      color: #707070;
-      .main {
-        color: #ffffff;
-      }
+  .subtitle {
+    margin: 30px 0 0;
+    padding: 3px 45px;
+    font-size: 24px;
+    background: #009fe4;
+    color: #ffffff;
+    .main {
+      color: #000000;
     }
+  }
+
+  .menuContainer {
+    margin-bottom: 58px;
   }
 
   .menu {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    min-height: 64px;
-    margin-bottom: 5px;
+    margin: 5px 0;
+    padding: 0 45px;
 
     .links {
       flex-grow: 1;
@@ -44,10 +51,6 @@ const StyledHeader = styled.div`
         margin-left: 0;
         font-size: 18px;
       }
-    }
-
-    .clocks {
-      display: flex;
     }
   }
 
@@ -67,10 +70,13 @@ const StyledHeader = styled.div`
       flex-direction: column-reverse;
       justify-content: space-between;
       align-items: center;
-      .links a {
+      .links  {
+        text-align: center;
+       a {
         margin-right: 10px;
         margin-left: 10px;
         font-size: 18px;
+      }
       }
       .clocks {
         display: flex;
@@ -84,10 +90,17 @@ const Header = () => {
   const { t } = useTranslation();
   const requestRef = useRef();
   const canvasRef = useRef(null);
+  const isMainPortfolio = useActivePath("/portfolio");
+
   let activeLink = {
     servizi: useActivePath("/servizi"),
     portfolio: useActivePath("/portfolio", false),
     contatti: useActivePath("/contatti"),
+    logoDesign: useActivePath("/portfolio/logo-design") || isMainPortfolio,
+    mockup: useActivePath("/portfolio/mockup"),
+    interiorDesign: useActivePath("/portfolio/interior-design"),
+    manoLibera: useActivePath("/portfolio/mano-libera"),
+    fotoImmagine: useActivePath("/portfolio/foto-immagine"),
   };
 
   const isDST = (d) => {
@@ -285,30 +298,47 @@ const Header = () => {
         <a href="/">
           <img alt="Creativexpansion Logo" src={Logo} />
         </a>
-        <p className="subtitle">
-          <span className="main">{t("header.subtitle.main")}</span>
-          {t("header.subtitle.rest")}
-        </p>
-      </div>
-      <Separator margin="30px 0 0" />
-      <div className="menu">
-        <div className="links">
-          <a className={activeLink.servizi} href="/servizi">
-            {t("header.menu.services")}
-          </a>
-          <a className={activeLink.portfolio} href="/portfolio">
-            {t("header.menu.portfolio")}
-          </a>
-          <a className={activeLink.contatti} href="/contatti">
-            {t("header.menu.contact")}
-          </a>
-        </div>
-        <LanguageSelector />
         <div className="clocks">
           <canvas ref={canvasRef} width={282} height={74} />
         </div>
       </div>
-      <Separator margin="0 0 43px" />
+      <div className="subtitle">
+        <span className="main">{t("header.subtitle.main")}</span>
+        {t("header.subtitle.rest")}
+      </div>
+      <DeepSection className="menuContainer">
+        <div className="menu">
+          <div className="links">
+            <a className={activeLink.servizi} href="/servizi">
+              {t("header.menu.services")}
+            </a>
+          </div>
+          <div className="links">
+            <a className={activeLink.logoDesign} href="/portfolio/logo-design">
+              {t("portfolio.menu.logoDesign")}
+            </a>
+            <a className={activeLink.mockup} href="/portfolio/mockup">
+              {t("portfolio.menu.mockup")}
+            </a>
+            <a className={activeLink.manoLibera} href="/portfolio/mano-libera">
+              {t("portfolio.menu.freehand")}
+            </a>
+            <a
+              className={activeLink.interiorDesign}
+              href="/portfolio/interior-design"
+            >
+              {t("portfolio.menu.interiorDesign")}
+            </a>
+            <a
+              className={activeLink.fotoImmagine}
+              href="/portfolio/foto-immagine"
+            >
+              {t("portfolio.menu.photoImage")}
+            </a>
+          </div>
+          <LanguageSelector />
+        </div>
+      </DeepSection>
     </StyledHeader>
   );
 };

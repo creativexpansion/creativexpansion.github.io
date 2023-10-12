@@ -29,32 +29,31 @@ import { titlePrefix } from "../utils";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 const StyledManoLibera = styled.div`
-  width: calc(100% + 34px);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: -17px;
+  justify-content: center;
+  gap: 58px;
 
   img {
-    width: 100%;
-    max-width: 383px;
-    /* max-width: calc(50% - 36px); */
-    /* border: 1px solid #333333; */
-    margin: 17px;
-    box-shadow: inset 0 0 0 1px rgb(51, 51, 51);
+    width: calc(33% - 36px);
+    background: #272727;
   }
 
-  @media (max-width: 370px) {
-    margin: 0;
-    width: 100%;
+  @media (max-width: 798px) {
     img {
-      margin: 17px 0;
-      max-width: 100%;
+      width: calc(50% - 29px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 100%;
+      max-width: 331px;
     }
   }
 `;
 
-const logos = [
+const images = [
   gioiello1,
   gioiello11,
   gioiello2,
@@ -92,8 +91,8 @@ const ManoLibera = () => {
           "portfolio.menu.freehand"
         )}`}</title>
       </Helmet>
-      {logos.map((logo, key) => (
-        <img key={key} alt={"mano libera " + key} src={logo} />
+      {images.map((image, key) => (
+        <img key={key} alt={"mano libera " + key} src={image} />
       ))}
     </StyledManoLibera>
   );

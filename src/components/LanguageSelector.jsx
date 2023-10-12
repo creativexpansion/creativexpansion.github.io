@@ -35,7 +35,7 @@ export const LanguageSelector = () => {
 
   return (
     <div
-      style={{ cursor: "pointer", margin: "0 50px" }}
+      style={{ cursor: "pointer" }}
       onClick={currentLanguage === "it" ? translateToEN : translateToIT}
     >
       <strong>{(currentLanguage === "it" ? "en" : "it").toUpperCase()}</strong>

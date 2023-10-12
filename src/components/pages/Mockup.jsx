@@ -13,11 +13,33 @@ import mockup011 from "../../assets/images/portfolio/mockup/mockup011.jpg";
 import mockup012 from "../../assets/images/portfolio/mockup/mockup012.jpg";
 import mockup013 from "../../assets/images/portfolio/mockup/mockup013.jpg";
 import mockup014 from "../../assets/images/portfolio/mockup/mockup014.jpg";
-import Carousel from "../Carousel";
 import { titlePrefix } from "../utils";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
-const StyledMockup = styled.div``;
+const StyledMockup = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 58px;
+
+  img {
+    width: calc(33% - 36px);
+    background: #ffffff;
+  }
+
+  @media (max-width: 798px) {
+    img {
+      width: calc(50% - 29px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 100%;
+      max-width: 331px;
+    }
+  }
+`;
 
 const images = [
   mockup001,
@@ -45,7 +67,9 @@ const Mockup = () => {
           "portfolio.menu.mockup"
         )}`}</title>
       </Helmet>
-      <Carousel images={images} />
+      {images.map((image, key) => (
+        <img key={key} alt={"mockup " + key} src={image} />
+      ))}
     </StyledMockup>
   );
 };

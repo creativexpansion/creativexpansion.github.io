@@ -1,6 +1,13 @@
 import styled from "styled-components";
-import graphic003 from "../../assets/images/home/graphic003.jpg";
+import home_creative_it from "../../assets/images/home/home_creative_it.jpg";
+import home_creative_en from "../../assets/images/home/home_creative_en.jpg";
 import PageContainer from "../PageContainer";
+import { useTranslation } from "react-i18next";
+
+const image = {
+  it: home_creative_it,
+  en: home_creative_en,
+};
 
 const StyledHome = styled.div`
   width: 100%;
@@ -11,10 +18,12 @@ const StyledHome = styled.div`
 `;
 
 const Home = () => {
+  const { i18n } = useTranslation();
+
   return (
     <PageContainer>
       <StyledHome>
-        <img src={graphic003} alt="welcome" />
+        <img src={image[i18n.language.slice(0, 2)]} alt="welcome" />
       </StyledHome>
     </PageContainer>
   );
