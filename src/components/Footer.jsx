@@ -69,7 +69,7 @@ const Footer = () => {
       </DeepSection>
       <div className="copyright">
       {t("footer.copyright")} -{" "}
-      <a href="/" target="_blank">
+      <a href="/">
         creativexpansion.com
       </a>
       </div>
