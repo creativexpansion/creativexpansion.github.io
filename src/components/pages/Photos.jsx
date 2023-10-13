@@ -27,7 +27,7 @@ import { useTranslation } from "react-i18next";
 const StyledPhotos = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 58px;
 
   img {
@@ -41,6 +41,8 @@ const StyledPhotos = styled.div`
   }
 
   @media (max-width: 480px) {
+    justify-content: center;
+
     img {
       width: 100%;
       max-width: 331px;

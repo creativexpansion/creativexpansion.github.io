@@ -25,7 +25,7 @@ import { Helmet } from "react-helmet";
 const StyledServices = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 58px;
 
   img {
@@ -39,6 +39,8 @@ const StyledServices = styled.div`
   }
 
   @media (max-width: 480px) {
+    justify-content: center;
+
     img {
       width: 100%;
       max-width: 331px;

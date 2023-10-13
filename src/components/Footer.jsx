@@ -5,7 +5,7 @@ import Logo from "../assets/logo.png";
 
 const StyledFooter = styled.div`
   color: #707070;
-  font-size: 14px;
+  font-size: 16px;
   a {
     margin-right: 20px;
   }
@@ -30,6 +30,19 @@ const StyledFooter = styled.div`
       color: #009fe4;
     }
   }
+  .copyright {
+    margin: 0 45px;
+  }
+
+  @media (max-width: 780px) {
+    .deepSection {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .copyright {
+      text-align: center;
+    }
+  }
 `;
 
 const Footer = () => {
@@ -39,13 +52,27 @@ const Footer = () => {
       <DeepSection className="deepSection">
         <div>
           <img alt="Creativexpansion Logo" src={Logo} />
-          by{' '}<span className="name">marco ciacco</span>
+          by
+          <span className="name" style={{ marginLeft: 5 }}>
+            marco ciacco
+          </span>
         </div>
         <div>
-          contatti: <a href="mailto:creativexpansionart@gmail.com">mailto:creativexpansionart@gmail.com</a>
+          contatti:
+          <a
+            href="mailto:creativexpansionart@gmail.com"
+            style={{ marginLeft: 5 }}
+          >
+            mailto:creativexpansionart@gmail.com
+          </a>
         </div>
       </DeepSection>
-      {t('footer.copyright')} - <a href="/" target="_blank">creativexpansion.com</a>
+      <div className="copyright">
+      {t("footer.copyright")} -{" "}
+      <a href="/" target="_blank">
+        creativexpansion.com
+      </a>
+      </div>
     </StyledFooter>
   );
 };

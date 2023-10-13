@@ -1,19 +1,22 @@
 import styled from "styled-components";
-import interior001 from "../../assets/images/portfolio/interior/interior001.jpg";
-import interior002 from "../../assets/images/portfolio/interior/interior002.jpg";
-import interior003 from "../../assets/images/portfolio/interior/interior003.jpg";
+import interior001 from "../../assets/images/portfolio/interior/interior_design_001.jpg";
+import interior002 from "../../assets/images/portfolio/interior/interior_design_002.jpg";
+import interior003 from "../../assets/images/portfolio/interior/interior_design_003.jpg";
+import interior004 from "../../assets/images/portfolio/interior/interior_design_004.png";
+import interior005 from "../../assets/images/portfolio/interior/interior_design_005.png";
 import { titlePrefix } from "../utils";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
+
 const StyledInteriorDesign = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 58px;
 
   img {
     width: calc(33% - 36px);
-    background: #272727;
+    background: #ffffff;
   }
 
   @media (max-width: 798px) {
@@ -23,6 +26,8 @@ const StyledInteriorDesign = styled.div`
   }
 
   @media (max-width: 480px) {
+    justify-content: center;
+
     img {
       width: 100%;
       max-width: 331px;
@@ -30,7 +35,7 @@ const StyledInteriorDesign = styled.div`
   }
 `;
 
-const images = [interior001, interior002, interior003];
+const images = [interior001, interior002, interior003, interior004, interior005];
 
 const InteriorDesign = () => {
   const { t } = useTranslation();

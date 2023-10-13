@@ -29,9 +29,6 @@ const StyledPageContainer = styled.div`
       color: #009ee1;
     }
   }
-  @media (max-width: 480px) {
-    padding: 15px;
-  }
 `;
 
 const PageContainer = ({ children }) => {

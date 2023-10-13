@@ -23,8 +23,8 @@ const StyledHeader = styled.div`
 
   .subtitle {
     margin: 30px 0 0;
-    padding: 3px 45px;
-    font-size: 24px;
+    padding: 5px 45px;
+    font-size: 28px;
     background: #009fe4;
     color: #ffffff;
     .main {
@@ -54,11 +54,18 @@ const StyledHeader = styled.div`
     }
   }
 
+  @media (max-width: 960px) {
+    .subtitle {
+      font-size: 24px;
+    }
+  }
+
   @media (max-width: 880px) {
     .row {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 20px;
 
       img {
         margin-right: 0;
@@ -70,18 +77,29 @@ const StyledHeader = styled.div`
       flex-direction: column-reverse;
       justify-content: space-between;
       align-items: center;
-      .links  {
+      .links {
         text-align: center;
-       a {
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 18px;
-      }
+        a {
+          margin-right: 10px;
+          margin-left: 10px;
+          font-size: 18px;
+        }
       }
       .clocks {
         display: flex;
         margin-bottom: 15px;
       }
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 21px;
+    }
+  }
+
+  @media (max-width: 740px) {
+    .subtitle {
+      font-size: 18px;
     }
   }
 `;
