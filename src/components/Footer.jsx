@@ -63,7 +63,7 @@ const Footer = () => {
             href="mailto:creativexpansionart@gmail.com"
             style={{ marginLeft: 5 }}
           >
-            mailto:creativexpansionart@gmail.com
+            creativexpansionart@gmail.com
           </a>
         </div>
       </DeepSection>
