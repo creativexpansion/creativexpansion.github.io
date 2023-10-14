@@ -58,7 +58,7 @@ const Footer = () => {
           </span>
         </div>
         <div>
-          contatti:
+          {t('footer.contact')}:
           <a
             href="mailto:creativexpansionart@gmail.com"
             style={{ marginLeft: 5 }}
@@ -68,10 +68,10 @@ const Footer = () => {
         </div>
       </DeepSection>
       <div className="copyright">
-      {t("footer.copyright")} -{" "}
-      <a href="/">
-        creativexpansion.com
-      </a>
+        {t("footer.copyright")} -{" "}
+        <a href="/">
+          creativexpansion.com
+        </a>
       </div>
     </StyledFooter>
   );
