@@ -51,7 +51,7 @@ const Footer = () => {
     <StyledFooter>
       <DeepSection className="deepSection">
         <div>
-          <img alt="Creativexpansion Logo" src={Logo} />
+          <a href="/" style={{ height: 32 }}><img alt="Creativexpansion Logo" src={Logo} /></a>
           by
           <span className="name" style={{ marginLeft: 5 }}>
             marco ciacco
