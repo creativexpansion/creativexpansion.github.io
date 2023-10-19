@@ -28,20 +28,27 @@ const StyledServices = styled.div`
   justify-content: start;
   gap: 58px;
 
-  img {
+  a, img {
     width: calc(33% - 36px);
+    height: calc(33% - 36px);
+  }
+
+  a > img {
+    width: 100%;
+    height: 100%;
   }
 
   @media (max-width: 798px) {
-    img {
+    a, img {
       width: calc(50% - 29px);
+      height: auto;
     }
   }
 
   @media (max-width: 480px) {
     justify-content: center;
 
-    img {
+    a, img {
       width: 100%;
       max-width: 331px;
     }
@@ -51,27 +58,27 @@ const StyledServices = styled.div`
 const images = {
   it:
     [
-      servizi_001_it,
-      servizi_002_it,
-      servizi_003_it,
-      servizi_004_it,
-      servizi_005_it,
-      servizi_006_it,
-      servizi_007_it,
-      servizi_008_it,
-      servizi_009_it,
+      { image: servizi_001_it },
+      { image: servizi_002_it, link: '/portfolio/logo-design' },
+      { image: servizi_003_it, link: '/portfolio/mockup' },
+      { image: servizi_004_it },
+      { image: servizi_005_it, link: '/portfolio/mano-libera' },
+      { image: servizi_006_it, link: '/portfolio/interior-design' },
+      { image: servizi_007_it },
+      { image: servizi_008_it },
+      { image: servizi_009_it },
     ],
   en:
     [
-      servizi_001_en,
-      servizi_002_en,
-      servizi_003_en,
-      servizi_004_en,
-      servizi_005_en,
-      servizi_006_en,
-      servizi_007_en,
-      servizi_008_en,
-      servizi_009_en,
+      { image: servizi_001_en },
+      { image: servizi_002_en, link: '/portfolio/logo-design' },
+      { image: servizi_003_en, link: '/portfolio/mockup' },
+      { image: servizi_004_en },
+      { image: servizi_005_en, link: '/portfolio/mano-libera' },
+      { image: servizi_006_en, link: '/portfolio/interior-design' },
+      { image: servizi_007_en },
+      { image: servizi_008_en },
+      { image: servizi_009_en },
     ],
 };
 
@@ -84,7 +91,10 @@ const Services = () => {
         <title>{`${titlePrefix}${t("header.menu.services")}`}</title>
       </Helmet>
       <StyledServices>
-        {images[i18n.language.slice(0, 2)].map((image, key) => <img key={key} src={image} alt={`services_image_${key}`} />)}
+        {images[i18n.language.slice(0, 2)].map(({ image, link }, key) => link
+          ? <a key={key} href={link}><img key={key} alt={`${t("header.menu.services")} ${key}`} src={image} /></a>
+          : <img key={key} alt={`${t("header.menu.services")} ${key}`} src={image} />
+        )}
       </StyledServices>
     </PageContainer>
   );
