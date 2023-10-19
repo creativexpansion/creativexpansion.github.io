@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.110a1157.js",
+    "main.js": "/static/js/main.2dce8b95.js",
     "static/media/home_creative_en.jpg": "/static/media/home_creative_en.b336a827d70c0414045d.jpg",
     "static/media/home_creative_it.jpg": "/static/media/home_creative_it.47e9b7f09fad85abd52e.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
@@ -47,7 +47,6 @@
     "static/media/foto_014.jpg": "/static/media/foto_014.c66efbf595b6d6b0c2f8.jpg",
     "static/media/servizi_003_en.jpg": "/static/media/servizi_003_en.9466b0638182cdf1d03e.jpg",
     "static/media/servizi_003_it.jpg": "/static/media/servizi_003_it.30d5b0da9b554adea0e4.jpg",
-    "static/media/bicchiere_008.png": "/static/media/bicchiere_008.aadd2e2e75b07ca4a63f.png",
     "static/media/pieghevole_010.png": "/static/media/pieghevole_010.319354c1fe5080033d03.png",
     "static/media/maglietta_003.png": "/static/media/maglietta_003.3dce34da8d949b0ad03c.png",
     "static/media/blocc_016.png": "/static/media/blocc_016.014f01e91cb39447a3fe.png",
@@ -56,6 +55,7 @@
     "static/media/polo_001.png": "/static/media/polo_001.7439e67ed3f1eba656b1.png",
     "static/media/polo_002.png": "/static/media/polo_002.39d2c1ddf9a199abe54b.png",
     "static/media/libro_014.png": "/static/media/libro_014.40478cc57e3761f93b47.png",
+    "static/media/bicchiere_008.png": "/static/media/bicchiere_008.9e1d41aa745f74f40019.png",
     "static/media/libro_013.png": "/static/media/libro_013.8bdb182b2bd5c1f52f0b.png",
     "static/media/cappello_006.png": "/static/media/cappello_006.87412cbe16baf822b646.png",
     "static/media/tazza_007.png": "/static/media/tazza_007.0407d74c77c13b190dee.png",
@@ -66,10 +66,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.110a1157.js.map": "/static/js/main.110a1157.js.map"
+    "main.2dce8b95.js.map": "/static/js/main.2dce8b95.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.110a1157.js"
+    "static/js/main.2dce8b95.js"
   ]
 }
