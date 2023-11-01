@@ -20,6 +20,9 @@ import foto_018 from "../../assets/images/portfolio/photos/foto_018.jpg"
 import foto_019 from "../../assets/images/portfolio/photos/foto_019.jpg"
 import foto_020 from "../../assets/images/portfolio/photos/foto_020.jpg"
 import foto_021 from "../../assets/images/portfolio/photos/foto_021.jpg"
+import foto_022 from "../../assets/images/portfolio/photos/foto_022.jpg"
+import foto_023 from "../../assets/images/portfolio/photos/foto_023.jpg"
+import foto_024 from "../../assets/images/portfolio/photos/foto_024.jpg"
 import { titlePrefix } from "../utils";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
@@ -72,6 +75,9 @@ const images = [
   foto_019,
   foto_020,
   foto_021,
+  foto_022,
+  foto_023,
+  foto_024,
 ];
 
 const Photos = () => {
