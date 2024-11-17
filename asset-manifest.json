@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.aed5afbc.css",
-    "main.js": "/static/js/main.6e2789d6.js",
+    "main.js": "/static/js/main.acb2d2ca.js",
     "static/media/home_creative_en.jpg": "/static/media/home_creative_en.b336a827d70c0414045d.jpg",
     "static/media/home_creative_it.jpg": "/static/media/home_creative_it.47e9b7f09fad85abd52e.jpg",
     "static/media/contact006.jpg": "/static/media/contact006.4a26bcf8c676d51ece2e.jpg",
     "static/media/foto_018.jpg": "/static/media/foto_018.b8b0171ad48c82be43e1.jpg",
     "static/media/foto_011.jpg": "/static/media/foto_011.4761399cb542a3927a3a.jpg",
     "static/media/foto_017.jpg": "/static/media/foto_017.29dccdab0d4b2842ee6a.jpg",
+    "static/media/foto_025.jpg": "/static/media/foto_025.6a8b6e6922aa5e6de43f.jpg",
+    "static/media/foto_026.jpg": "/static/media/foto_026.8befd8b7c0af0dd88470.jpg",
     "static/media/foto_022.jpg": "/static/media/foto_022.dfc7f611b5829074b803.jpg",
     "static/media/foto_010.jpg": "/static/media/foto_010.6a6eff202b7a282ebcc1.jpg",
     "static/media/servizi_008_en.jpg": "/static/media/servizi_008_en.dac6ab51ad68660a86bf.jpg",
@@ -69,10 +71,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.aed5afbc.css.map": "/static/css/main.aed5afbc.css.map",
-    "main.6e2789d6.js.map": "/static/js/main.6e2789d6.js.map"
+    "main.acb2d2ca.js.map": "/static/js/main.acb2d2ca.js.map"
   },
   "entrypoints": [
     "static/css/main.aed5afbc.css",
-    "static/js/main.6e2789d6.js"
+    "static/js/main.acb2d2ca.js"
   ]
 }
