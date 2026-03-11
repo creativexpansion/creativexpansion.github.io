@@ -13,7 +13,7 @@ import mos011 from "../../assets/images/portfolio/logos/mos_011.png";
 import stu012 from "../../assets/images/portfolio/logos/stu_012.png";
 import cre013 from "../../assets/images/portfolio/logos/cre_013.png";
 import ugu014 from "../../assets/images/portfolio/logos/ugu_014.png";
-import bri015 from "../../assets/images/portfolio/logos/bri_015.png";
+//import bri015 from "../../assets/images/portfolio/logos/bri_015.png";
 import kra016 from "../../assets/images/portfolio/logos/kra_016.png";
 import { titlePrefix } from "../utils";
 import { Helmet } from "react-helmet";
@@ -60,7 +60,7 @@ const logos = [
   mos011,
   cre013,
   pne006,
-  bri015,
+  //bri015,
   kra016,
 ];
 
