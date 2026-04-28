@@ -15,6 +15,7 @@ import cre013 from "../../assets/images/portfolio/logos/cre_013.png";
 import ugu014 from "../../assets/images/portfolio/logos/ugu_014.png";
 //import bri015 from "../../assets/images/portfolio/logos/bri_015.png";
 import kra016 from "../../assets/images/portfolio/logos/kra_016.png";
+import dng017 from "../../assets/images/portfolio/logos/dng_017.png";
 import { titlePrefix } from "../utils";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
@@ -62,6 +63,7 @@ const logos = [
   pne006,
   //bri015,
   kra016,
+  dng017,
 ];
 
 const LogoDesign = () => {
